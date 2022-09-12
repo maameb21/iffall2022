@@ -1,0 +1,44 @@
+p { 
+    color: white; 
+    font-size: 30px;
+    line-height: 40pt;
+}
+ 
+.firstparagraph {
+    color: blue;
+} 
+
+#first {
+    border: 2px solid yellow; 
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color:rgb(146, 255, 139)
+}
+
+h2 {
+    
+}
+
+.backphoto {
+    background-image: url("https://www.shortlist.com/media/imager/202107/52780-posts.article_md.jpg");
+  height: 100%; 
+  background-size: cover; 
+
+} 
+
+h1 {
+    text-align: center;
+    color:rgb(146, 255, 139);
+    font-size: 50px;
+}
+
+strong {
+    color:aquamarine
+}
+
+br {
+    line-break: 20px;
+}
