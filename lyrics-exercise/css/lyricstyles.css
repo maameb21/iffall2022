@@ -1,0 +1,49 @@
+p { 
+    color: rgb(121, 0, 65); 
+    font-size: 30px;
+    line-height: 30pt;
+    text-align: center;
+}
+ 
+.firstparagraph {
+    color: blue;
+} 
+
+#first {
+    border: 2px solid yellow; 
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 40px;
+    color:rgb(146, 255, 139)
+}
+
+h2 {
+    
+}
+
+.backphoto {
+    background-color: pink;
+  
+
+} 
+
+h1 {
+    text-align: center;
+    color:palevioletred; 
+    font-size: 50px;
+}
+
+strong {
+    color:aquamarine
+}
+
+br {
+    line-height: 10pt;
+}
+
+footer {
+    text-align: center;
+    color: palevioletred;
+}
