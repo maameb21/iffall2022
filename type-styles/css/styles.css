@@ -1,0 +1,28 @@
+body {
+    font-family:'Crimson Text';
+    margin: 5%; 
+} 
+
+header {
+    font-size: 28px;
+} 
+
+p {
+    font-size: 22px;
+}
+
+main {
+    font-size: 25px;
+} 
+
+code {
+    font-size: 18px; 
+} 
+
+h1 { 
+    font-size: 30px;
+}  
+
+h3 {
+    font-size: 22px;
+}
