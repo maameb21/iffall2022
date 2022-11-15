@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+body h1 {display:flex; }
+
+img{
+    max-width: 1000px; 
+} 
+
+ul li { display:flex; 
+    margin:auto;
+}
