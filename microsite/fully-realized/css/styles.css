@@ -1,5 +1,6 @@
 
 body { 
+    padding-top: 80px; 
     
     }
 
@@ -26,6 +27,8 @@ img{
 } 
 
 
+
+
 footer { 
     
     background-color: black; 
@@ -41,28 +44,29 @@ footer {
     align-items: center; 
     display: flex;
     margin: auto; 
-    max-width: 80%; 
+    max-width: 100%; 
     
 }
 
 .navbar .pagetitles {
-    padding-left: 60px; 
+    padding-left: 10px; 
+    padding-right: 10px;
     margin-left: 90 px;
     margin-right: 90px; 
     margin-top: 10px; 
     color: pink; 
     font-weight: bold; 
+    font-size: 40px;
+    
     
 } 
 
 .content {
-    position: relative;
-
-    padding-top: 80px; 
-    top: 60px;  
+    flex: wrap; 
+    padding-top: 80px;  
     max-width: 90%; 
+    margin-top: 0px; 
     margin: auto; 
-
     color: rgb(29, 55, 80); 
 } 
 
@@ -78,6 +82,54 @@ body {
 
 }
 
+
+.btncontainer {
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+a#btnhome:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+}
+
+a#btnhistory:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+} 
+a#btnculture:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+} 
+
+a#btnregions:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+}
+
+a#btnclimate:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+}
 
 
 
@@ -99,7 +151,29 @@ Then add buttons
         flex: wrap;
         width: 100%;
     }
-    .content{
-        top:80px; 
+    body{
+       
+        padding-top: 800px;  
+       
     }
+
+    .navbar .pagetitles {
+        padding-left: 60px; 
+        margin-left: 90 px;
+        margin-right: 90px;  
+        color: pink; 
+        font-weight: bold; 
+        font-size: 50px; 
+        flex: wrap;
+        
+        
+    } 
+
+    .pagetitles{
+        font-size: 100%;
+    }
+    
+
+
 }
+
