@@ -1,0 +1,234 @@
+ 
+
+h1{
+    Font-size: 60px; 
+    line-height: 70px; 
+    font-family: kopik, sans-serif; 
+} 
+
+
+img{
+    max-width: 100%; 
+    border-radius: 80px; 
+} 
+
+.navbar { 
+    width: 100%; 
+    height: 10%; 
+    background-color: black; 
+    position: fixed; 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    
+    
+     
+    
+} 
+
+
+
+
+footer{ 
+    
+    background-color: black; 
+    color: white;
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px; 
+    font-family: mundial, sans-serif; 
+    font-weight: 100; 
+   
+    /* bottom: 0px;  */
+
+
+    
+}
+
+
+.pagetitlebox {
+    justify-content: center;  
+    display: flex;
+    margin: auto; 
+    max-width: 100%; 
+    
+}
+
+.navbar .pagetitles {
+    justify-content: center; 
+    /* margin-right: 90px;  */
+    margin-top: 10px; 
+    color: pink; 
+    font-weight: bold; 
+    font-size: 26px;
+    text-decoration: none; 
+    font-family: kopik, sans-serif; 
+    
+    
+} 
+
+.content {
+ 
+    padding-top: 80px;  
+    max-width: 90%; 
+    margin-top: 0px; 
+    margin: auto; 
+    color: rgb(29, 55, 80); 
+    font-family: mundial, sans-serif; 
+    font-weight: 200; 
+} 
+
+body {
+    background-color: rgb(214, 244, 253);
+    margin: 0px; 
+    font-size: 20px;
+    line-height: 30px; 
+    justify-content: center; 
+   
+
+    
+    
+} 
+
+p {
+    max-width: 80%; 
+    text-align: justify; 
+
+}
+.images {
+    display: flex;
+    flex: wrap; 
+    max-width: 60%; 
+
+}
+
+
+.btncontainer {
+    margin: auto; 
+    padding: 20px;
+    width: 100%; 
+    height: 100%; 
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+a#btnhome:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+}
+
+a#btnhistory:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+} 
+a#btnculture:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+} 
+
+a#btnregions:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+}
+
+a#btnclimate:hover {
+    background-color: none;
+    border: none;
+    color: pink;
+    font-size: 30px; 
+}
+
+h2 {
+    font-family: kopik, sans-serif; 
+}
+.number {
+    font-family: kopik, sans-serif; 
+    font-weight: bold; 
+    font-size: 25px; 
+}
+
+
+
+/*  
+then organize headings/ images/ paragraphs and get them to wrap properly, get cuter, anime style images. 
+Consider anime pngs
+Add media query for when it shrinks to a certain size.
+Then add buttons
+ */
+
+@media (max-width: 600px) {
+   
+    .pagetitlebox {
+        display: block; 
+        margin: auto; 
+        max-width: 100%; 
+        justify-content: center; 
+           
+    
+    } 
+    .images {
+        display: flex;
+        flex: wrap;
+        width: 100%;
+    }
+    body{
+       
+        margin-top: 300px;  
+       
+    }
+
+    .navbar .pagetitles {
+        padding-left: 60px; 
+        margin-left: 90px;
+        /* margin-right: 90px;   */
+        color: pink; 
+        font-weight: bold; 
+        font-size: 30px; 
+        flex: wrap;
+     
+    
+        
+        
+    } 
+    
+    p {
+        max-width: 100%;
+        text-align: left;  
+    }
+
+    .btncontainer {
+        justify-content: center; 
+    }
+
+    .navbar {
+        width: 100%; 
+        background-color: black; 
+        display: block; 
+        height: fit-content; 
+       
+
+        
+        
+
+    }
+
+    .pagetitles{
+        font-size: 100%;
+    }
+    
+
+
+}
