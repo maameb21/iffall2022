@@ -8,7 +8,7 @@ h1{
 
 
 img{
-    max-width: 100%; 
+    max-width: 70%; 
     border-radius: 80px; 
 } 
 
@@ -91,7 +91,7 @@ body {
 } 
 
 p {
-    max-width: 80%; 
+    max-width: 60%; 
     text-align: justify; 
 
 }
@@ -153,6 +153,7 @@ a#btnclimate:hover {
 
 h2 {
     font-family: kopik, sans-serif; 
+    max-width: 65%; 
 }
 .number {
     font-family: kopik, sans-serif; 
